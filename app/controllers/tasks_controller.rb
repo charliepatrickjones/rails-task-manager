@@ -1,6 +1,6 @@
 class TasksController < ApplicationController
 
-  def listall
+  def index
     @tasks = Task.all
   end
 end
